@@ -16,6 +16,4 @@ The original go executable is replaced with a wrapper that sets those variables 
 
 For the `GOPATH`, it looks for a directory called `src`, starting from the current directory and then looking up. If it can't find any, the current directory is used.
 
-`GOPATH` is then set to `$dir\src\vendor:$dir`.
-
 `GOBIN` is set to `$GOPATH/bin`.
