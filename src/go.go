@@ -60,8 +60,8 @@ func main() {
 		}
 	}
 
-	//goPath := join(path, "src/vendor") + string(filepath.ListSeparator) + path
-  goPath := path
+	goPath := join(path, "deps") + string(filepath.ListSeparator) + path
+  //goPath := path
 
 	os.Setenv("GOROOT", goRoot)
 	os.Setenv("GOPATH", goPath)
