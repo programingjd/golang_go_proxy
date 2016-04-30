@@ -58,7 +58,7 @@ IF NOT EXIST "%DISTRIBUTION_ARCHIVE%" (
 
 :extract
 echo Extracting the go distribution archive.
-FOR /F "delims=" %%i in ('%UNZIP_PATH% -o -qq %DISTRIBUTION_ARCHIVE%') DO echo
+FOR /F "delims=" %%i in ('%UNZIP_PATH% -o -qq %DISTRIBUTION_ARCHIVE%') DO REM
 
 :compile
 echo Compiling the go helper.
