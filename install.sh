@@ -4,7 +4,7 @@ dir=$(dirname $(readlink /proc/$$/fd/255))
 
 pushd $dir
 
-GO_VERSION=1.7
+GO_VERSION=1.7.4
 
 case "$OSTYPE" in
   linux*)  DISTRIBUTION_ARCHIVE=go${GO_VERSION}.linux-amd64.tar ;;

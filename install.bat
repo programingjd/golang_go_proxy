@@ -1,5 +1,5 @@
 @echo off
-set GO_VERSION=1.7
+set GO_VERSION=1.7.4
 
 set CURL_PATH=
 set UNZIP_PATH=
